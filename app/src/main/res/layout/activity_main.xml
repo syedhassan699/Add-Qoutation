@@ -64,11 +64,13 @@
 
     <TextView
         android:id="@+id/button_add_quote"
-        android:layout_width="100dp"
+        android:layout_width="90dp"
         android:layout_height="30dp"
-        android:background="@color/material_dynamic_primary80"
+        android:background="@color/design_default_color_primary_dark"
         android:layout_marginTop="20dp"
         android:layout_marginStart="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
         android:text="@string/add_quote"
         android:gravity="center"
         app:layout_constraintBottom_toBottomOf="@+id/editText_author"
